@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
+import './Nav.css'
 
 const Nav = (props) => {
   return (
-    <nav>
+    <nav className='nav'>
       <h3>Logo</h3>
-      <ul>
+      <ul className='nav-links'>
         <li>About</li>
         <li>Shop</li>
       </ul>
